@@ -53,6 +53,15 @@ a img {
 
 .name {z-index: 88888;}
 
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
 #illustration {
   background-color: #4C5364;
 /*  background-color: #495266; gray blue*/
@@ -164,6 +173,7 @@ span.answer {
 }
 
 .skill {
+  cursor: pointer;
   border: 1px solid #50a9d1;
   margin-right: 10px;
   text-transform: uppercase;
@@ -212,7 +222,6 @@ img.icon {
   display: block;
   margin-left: -95px;
   margin-top: 5px;
-  background-color: #fff;
   opacity: 0.8;
   z-index: 0;
   filter: grayscale(100%);

@@ -35,13 +35,13 @@
   background: transparent url('repostat.png') no-repeat 0 0;
 }
 .gw-watchers {
-  background-position: 5px -2px;
+  background-position: 5px -77px;
 }
 .gw-forks {
   background-position: 5px -52px;
 }
 .gw-lang {
-  color: #777;
+  /* color: #777; */
 }
 .gw-clearer {
   clear: left;
